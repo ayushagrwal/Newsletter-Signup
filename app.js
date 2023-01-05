@@ -60,7 +60,7 @@ app.post("/",function(req,res){
     });
 
     //Commented out to avoid unnecessary Signups on website
-    // request.write(jsonData);
+    request.write(jsonData);
     request.end();
 });
 
